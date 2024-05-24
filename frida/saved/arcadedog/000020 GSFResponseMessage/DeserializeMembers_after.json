@@ -1,0 +1,21 @@
+{
+    "body": {
+        "isAccepted": true,
+        "canStart": true,
+        "canPlay": true,
+        "joinedPlayers": null
+    },
+    "bodyType": "GSFAcceptQuestSvc+GSFResponse",
+    "header": {
+        "priority": 30,
+        "flags": 9,
+        "svcClass": 18,
+        "msgType": 50,
+        "requestId": 255,
+        "logCorrelator": "\"\"",
+        "resultCode": 0,
+        "appCode": 0,
+        "appString": "null",
+        "appCodeArray": null
+    }
+}

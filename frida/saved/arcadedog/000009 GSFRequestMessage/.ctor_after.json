@@ -1,0 +1,44 @@
+{
+    "body": {
+        "oids": [
+            {
+                "objectClass": 4,
+                "type": 6,
+                "server": 0,
+                "num": "9617203"
+            }
+        ],
+        "langlocalePairID": {
+            "objectClass": 4,
+            "type": 19,
+            "server": 0,
+            "num": "8452423"
+        },
+        "tierID": {
+            "objectClass": 4,
+            "type": 38,
+            "server": 0,
+            "num": "9220128"
+        },
+        "birthDate": null,
+        "registrationDate": null,
+        "previewDate": null,
+        "isPreviewEnabled": false
+    },
+    "bodyType": "GSFGetPublicItemsByOIDsSvc+GSFRequest",
+    "Timeout": {
+        "handle": "0x70ef578000"
+    },
+    "header": {
+        "priority": 30,
+        "flags": 0,
+        "svcClass": 18,
+        "msgType": 571,
+        "requestId": 253,
+        "logCorrelator": "\"\"",
+        "resultCode": 0,
+        "appCode": 0,
+        "appString": "null",
+        "appCodeArray": null
+    }
+}

@@ -1,0 +1,489 @@
+{
+    "showcase": {
+        "baby": {
+            "avatarID": {
+                "objectClass": 4,
+                "type": 10,
+                "server": 0,
+                "num": "9550974"
+            },
+            "playerID": {
+                "objectClass": 4,
+                "type": 1,
+                "server": 2,
+                "num": "172"
+            },
+            "buildingID": null,
+            "name": "\"Yowlda\"",
+            "bio": "null",
+            "gender": "null",
+            "createTS": {
+                "handle": "0x74127cecc0"
+            },
+            "playerAvatarOutfitId": null,
+            "outfitNo": 0,
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "rotation": "null",
+            "parentID": null,
+            "parentTemplateID": null,
+            "parentOrdinal": 0,
+            "playTime": null,
+            "lastPlay": null,
+            "birthDay": null,
+            "breed": 0,
+            "state": 2,
+            "rarity": 6,
+            "babyTasks": 0,
+            "growthPoints": 0,
+            "bonusAvailable": false,
+            "skills": [],
+            "kidTasks": 0,
+            "accent01ID": {
+                "objectClass": 4,
+                "type": 200,
+                "server": 0,
+                "num": "839"
+            },
+            "accent02ID": {
+                "objectClass": 4,
+                "type": 200,
+                "server": 0,
+                "num": "26"
+            },
+            "accent03ID": {
+                "objectClass": 4,
+                "type": 200,
+                "server": 0,
+                "num": "836"
+            },
+            "accent04ID": {
+                "objectClass": 4,
+                "type": 200,
+                "server": 0,
+                "num": "842"
+            },
+            "accent05ID": {
+                "objectClass": 4,
+                "type": 200,
+                "server": 0,
+                "num": "439"
+            },
+            "accent06ID": {
+                "objectClass": 4,
+                "type": 200,
+                "server": 0,
+                "num": "848"
+            },
+            "accent07ID": {
+                "objectClass": 4,
+                "type": 200,
+                "server": 0,
+                "num": "853"
+            },
+            "accent08ID": {
+                "objectClass": 4,
+                "type": 200,
+                "server": 0,
+                "num": "36"
+            },
+            "accent09ID": {
+                "objectClass": 4,
+                "type": 200,
+                "server": 0,
+                "num": "851"
+            },
+            "accent10ID": null,
+            "playedByID": null,
+            "generation": 10,
+            "primaryParentID": {
+                "objectClass": 4,
+                "type": 11,
+                "server": 2,
+                "num": "189474"
+            },
+            "secondaryParentID": {
+                "objectClass": 4,
+                "type": 11,
+                "server": 2,
+                "num": "155155"
+            },
+            "accent01Origin": 4,
+            "accent02Origin": 7,
+            "accent03Origin": 4,
+            "accent04Origin": 4,
+            "accent05Origin": 4,
+            "accent06Origin": 6,
+            "accent07Origin": 0,
+            "accent08Origin": 7,
+            "accent09Origin": 4,
+            "accent10Origin": 0,
+            "accent01Rarity": null,
+            "accent02Rarity": null,
+            "accent03Rarity": null,
+            "accent04Rarity": null,
+            "accent05Rarity": null,
+            "accent06Rarity": null,
+            "accent07Rarity": null,
+            "accent08Rarity": null,
+            "accent09Rarity": null,
+            "accent10Rarity": null,
+            "daycareType": null,
+            "daycareEndDate": null,
+            "playerAvatarItemId": null,
+            "avatar": null,
+            "avatarAccents": null,
+            "outfits": null,
+            "clothes": null,
+            "deferredInitialization": null,
+            "babyState": null,
+            "OnAddClothing": null,
+            "OnRemoveClothing": null,
+            "OnUpdateClothing": null,
+            "OnPlayerAvatarStateChange": null,
+            "OnPlayerAvatarBabyTasksChanged": null,
+            "OnPlayerAvatarChildTasksChanged": null,
+            "OnPlayerAvatarGrowthPointsChanged": null,
+            "OnPlayerAvatarBonusAvailableChanged": null,
+            "OnPlayerAvatarParentChanged": null,
+            "OnPlayerAvatarDaycareTypeChanged": null,
+            "OnTransferClothing": null,
+            "primaryParent": null,
+            "secondaryParent": null,
+            "accentSlotRarities": null,
+            "plushPurchaseOrder": null,
+            "oid": {
+                "objectClass": 4,
+                "type": 11,
+                "server": 2,
+                "num": "210774"
+            }
+        },
+        "primaryParent": {
+            "avatarID": {
+                "objectClass": 4,
+                "type": 10,
+                "server": 0,
+                "num": "9550974"
+            },
+            "playerID": {
+                "objectClass": 4,
+                "type": 1,
+                "server": 2,
+                "num": "172"
+            },
+            "buildingID": null,
+            "name": "\"Orchid Rainbow\"",
+            "bio": "null",
+            "gender": "null",
+            "createTS": {
+                "handle": "0x74127cec60"
+            },
+            "playerAvatarOutfitId": null,
+            "outfitNo": 0,
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "rotation": "null",
+            "parentID": null,
+            "parentTemplateID": null,
+            "parentOrdinal": 0,
+            "playTime": null,
+            "lastPlay": null,
+            "birthDay": null,
+            "breed": 0,
+            "state": 2,
+            "rarity": 6,
+            "babyTasks": 0,
+            "growthPoints": 0,
+            "bonusAvailable": false,
+            "skills": [],
+            "kidTasks": 0,
+            "accent01ID": {
+                "objectClass": 4,
+                "type": 200,
+                "server": 0,
+                "num": "434"
+            },
+            "accent02ID": {
+                "objectClass": 4,
+                "type": 200,
+                "server": 0,
+                "num": "26"
+            },
+            "accent03ID": {
+                "objectClass": 4,
+                "type": 200,
+                "server": 0,
+                "num": "836"
+            },
+            "accent04ID": {
+                "objectClass": 4,
+                "type": 200,
+                "server": 0,
+                "num": "842"
+            },
+            "accent05ID": {
+                "objectClass": 4,
+                "type": 200,
+                "server": 0,
+                "num": "439"
+            },
+            "accent06ID": {
+                "objectClass": 4,
+                "type": 200,
+                "server": 0,
+                "num": "848"
+            },
+            "accent07ID": {
+                "objectClass": 4,
+                "type": 200,
+                "server": 0,
+                "num": "160"
+            },
+            "accent08ID": {
+                "objectClass": 4,
+                "type": 200,
+                "server": 0,
+                "num": "36"
+            },
+            "accent09ID": {
+                "objectClass": 4,
+                "type": 200,
+                "server": 0,
+                "num": "850"
+            },
+            "accent10ID": null,
+            "playedByID": null,
+            "generation": 10,
+            "primaryParentID": {
+                "objectClass": 4,
+                "type": 11,
+                "server": 2,
+                "num": "142937"
+            },
+            "secondaryParentID": {
+                "objectClass": 4,
+                "type": 11,
+                "server": 2,
+                "num": "155155"
+            },
+            "accent01Origin": 3,
+            "accent02Origin": 7,
+            "accent03Origin": 4,
+            "accent04Origin": 4,
+            "accent05Origin": 4,
+            "accent06Origin": 6,
+            "accent07Origin": 7,
+            "accent08Origin": 4,
+            "accent09Origin": 4,
+            "accent10Origin": 0,
+            "accent01Rarity": null,
+            "accent02Rarity": null,
+            "accent03Rarity": null,
+            "accent04Rarity": null,
+            "accent05Rarity": null,
+            "accent06Rarity": null,
+            "accent07Rarity": null,
+            "accent08Rarity": null,
+            "accent09Rarity": null,
+            "accent10Rarity": null,
+            "daycareType": null,
+            "daycareEndDate": null,
+            "playerAvatarItemId": null,
+            "avatar": null,
+            "avatarAccents": null,
+            "outfits": null,
+            "clothes": null,
+            "deferredInitialization": null,
+            "babyState": null,
+            "OnAddClothing": null,
+            "OnRemoveClothing": null,
+            "OnUpdateClothing": null,
+            "OnPlayerAvatarStateChange": null,
+            "OnPlayerAvatarBabyTasksChanged": null,
+            "OnPlayerAvatarChildTasksChanged": null,
+            "OnPlayerAvatarGrowthPointsChanged": null,
+            "OnPlayerAvatarBonusAvailableChanged": null,
+            "OnPlayerAvatarParentChanged": null,
+            "OnPlayerAvatarDaycareTypeChanged": null,
+            "OnTransferClothing": null,
+            "primaryParent": null,
+            "secondaryParent": null,
+            "accentSlotRarities": null,
+            "plushPurchaseOrder": null,
+            "oid": {
+                "objectClass": 4,
+                "type": 11,
+                "server": 2,
+                "num": "189474"
+            }
+        },
+        "secondaryParent": {
+            "avatarID": {
+                "objectClass": 4,
+                "type": 10,
+                "server": 0,
+                "num": "9550987"
+            },
+            "playerID": {
+                "objectClass": 4,
+                "type": 1,
+                "server": 2,
+                "num": "172"
+            },
+            "buildingID": null,
+            "name": "\"Neptune\"",
+            "bio": "null",
+            "gender": "null",
+            "createTS": {
+                "handle": "0x74127cec00"
+            },
+            "playerAvatarOutfitId": null,
+            "outfitNo": 0,
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "rotation": "null",
+            "parentID": null,
+            "parentTemplateID": null,
+            "parentOrdinal": 0,
+            "playTime": null,
+            "lastPlay": null,
+            "birthDay": null,
+            "breed": 0,
+            "state": 2,
+            "rarity": 5,
+            "babyTasks": 0,
+            "growthPoints": 0,
+            "bonusAvailable": false,
+            "skills": [],
+            "kidTasks": 0,
+            "accent01ID": {
+                "objectClass": 4,
+                "type": 200,
+                "server": 0,
+                "num": "891"
+            },
+            "accent02ID": {
+                "objectClass": 4,
+                "type": 200,
+                "server": 0,
+                "num": "26"
+            },
+            "accent03ID": {
+                "objectClass": 4,
+                "type": 200,
+                "server": 0,
+                "num": "70"
+            },
+            "accent04ID": {
+                "objectClass": 4,
+                "type": 200,
+                "server": 0,
+                "num": "653"
+            },
+            "accent05ID": {
+                "objectClass": 4,
+                "type": 200,
+                "server": 0,
+                "num": "896"
+            },
+            "accent06ID": {
+                "objectClass": 4,
+                "type": 200,
+                "server": 0,
+                "num": "898"
+            },
+            "accent07ID": {
+                "objectClass": 4,
+                "type": 200,
+                "server": 0,
+                "num": "160"
+            },
+            "accent08ID": {
+                "objectClass": 4,
+                "type": 200,
+                "server": 0,
+                "num": "36"
+            },
+            "accent09ID": {
+                "objectClass": 4,
+                "type": 200,
+                "server": 0,
+                "num": "897"
+            },
+            "accent10ID": {
+                "objectClass": 4,
+                "type": 200,
+                "server": 0,
+                "num": "672"
+            },
+            "playedByID": null,
+            "generation": 10,
+            "primaryParentID": {
+                "objectClass": 4,
+                "type": 11,
+                "server": 2,
+                "num": "122724"
+            },
+            "secondaryParentID": {
+                "objectClass": 4,
+                "type": 11,
+                "server": 2,
+                "num": "97525"
+            },
+            "accent01Origin": 4,
+            "accent02Origin": 4,
+            "accent03Origin": 4,
+            "accent04Origin": 7,
+            "accent05Origin": 4,
+            "accent06Origin": 0,
+            "accent07Origin": 4,
+            "accent08Origin": 6,
+            "accent09Origin": 0,
+            "accent10Origin": 7,
+            "accent01Rarity": null,
+            "accent02Rarity": null,
+            "accent03Rarity": null,
+            "accent04Rarity": null,
+            "accent05Rarity": null,
+            "accent06Rarity": null,
+            "accent07Rarity": null,
+            "accent08Rarity": null,
+            "accent09Rarity": null,
+            "accent10Rarity": null,
+            "daycareType": null,
+            "daycareEndDate": null,
+            "playerAvatarItemId": null,
+            "avatar": null,
+            "avatarAccents": null,
+            "outfits": null,
+            "clothes": null,
+            "deferredInitialization": null,
+            "babyState": null,
+            "OnAddClothing": null,
+            "OnRemoveClothing": null,
+            "OnUpdateClothing": null,
+            "OnPlayerAvatarStateChange": null,
+            "OnPlayerAvatarBabyTasksChanged": null,
+            "OnPlayerAvatarChildTasksChanged": null,
+            "OnPlayerAvatarGrowthPointsChanged": null,
+            "OnPlayerAvatarBonusAvailableChanged": null,
+            "OnPlayerAvatarParentChanged": null,
+            "OnPlayerAvatarDaycareTypeChanged": null,
+            "OnTransferClothing": null,
+            "primaryParent": null,
+            "secondaryParent": null,
+            "accentSlotRarities": null,
+            "plushPurchaseOrder": null,
+            "oid": {
+                "objectClass": 4,
+                "type": 11,
+                "server": 2,
+                "num": "155155"
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "body": {
+        "pid": null,
+        "playerVillagerID": null,
+        "objectOrdinalPair": null,
+        "expiry": 0,
+        "reserved": false
+    },
+    "bodyType": "GSFReserveObjectNotify+GSFRequest",
+    "Timeout": {
+        "handle": "0x70ef588de0"
+    },
+    "header": {
+        "priority": 30,
+        "flags": 2,
+        "svcClass": 7,
+        "msgType": -1,
+        "requestId": -1,
+        "logCorrelator": "\"\"",
+        "resultCode": 0,
+        "appCode": 0,
+        "appString": "null",
+        "appCodeArray": null
+    }
+}

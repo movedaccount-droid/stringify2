@@ -1,0 +1,22 @@
+{
+    "body": {
+        "activity": 11,
+        "inactivityTime": "0"
+    },
+    "bodyType": "GSFHeartbeatSvc+GSFRequest",
+    "Timeout": {
+        "handle": "0x70ef4af330"
+    },
+    "header": {
+        "priority": 30,
+        "flags": 0,
+        "svcClass": 18,
+        "msgType": 113,
+        "requestId": 257,
+        "logCorrelator": "\"\"",
+        "resultCode": 0,
+        "appCode": 0,
+        "appString": "null",
+        "appCodeArray": null
+    }
+}

@@ -1,0 +1,353 @@
+     ____
+    / _  |   Frida 16.1.4 - A world-class dynamic instrumentation toolkit
+   | (_| |
+    > _  |   Commands:
+   /_/ |_|       help      -> Displays the help system
+   . . . .       object?   -> Display information about 'object'
+   . . . .       exit/quit -> Exit
+   . . . .
+   . . . .   More info at https://frida.re/docs/home/
+   . . . .
+   . . . .   Connected to Pixel 3a XL (id=95WAX0GDCN)
+Spawning `com.webkinz.webkinznext`...
+Spawned `com.webkinz.webkinznext`. Resuming main thread!
+[Pixel 3a XL::com.webkinz.webkinznext ]-> replacing DeserializeMembers of GSFResponseMessage
+replacing .ctor of GSFRequestMessage
+replacing .ctor of GSFRequestMessage
+replacing .ctor of GSFRequestMessage
+replacing .ctor of GSFRequestMessage
+replacing .ctor of GSFRequestMessage
+replacing .ctor of GSFRequestMessage
+reset successful
+
+
+------- GSFRequestMessage [.ctor] -------
+
+
+------- GSFRequestMessage [.ctor] -------
+returned null, skipping returned
+logging after...
+{
+    "body": {
+        "clientName": "\"WebkinzNext.Android\""
+    },
+    "bodyType": "GSFGetClientVersionInfoSvc+GSFRequest",
+    "Timeout": {
+        "handle": "0x75abaf9540"
+    },
+    "header": {
+        "priority": 30,
+        "flags": 0,
+        "svcClass": 18,
+        "msgType": 566,
+        "requestId": 1,
+        "logCorrelator": "\"\"",
+        "resultCode": 0,
+        "appCode": 0,
+        "appString": "null",
+        "appCodeArray": null
+    }
+}
+------- GSFRequestMessage [.ctor] -------
+returned null, skipping returned
+logging after...
+{
+    "body": {
+        "clientName": "\"WebkinzNext.Android\""
+    },
+    "bodyType": "GSFGetClientVersionInfoSvc+GSFRequest",
+    "Timeout": {
+        "handle": "0x75abaf9510"
+    },
+    "header": {
+        "priority": 30,
+        "flags": 0,
+        "svcClass": 18,
+        "msgType": 566,
+        "requestId": 1,
+        "logCorrelator": "\"\"",
+        "resultCode": 0,
+        "appCode": 0,
+        "appString": "null",
+        "appCodeArray": null
+    }
+}
+------- GSFRequestMessage [.ctor] -------
+
+
+------- GSFResponseMessage [DeserializeMembers] -------
+returned null, skipping returned
+logging after...
+{
+    "body": {
+        "clientVersionInfo": "\"208127.true\""
+    },
+    "bodyType": "GSFGetClientVersionInfoSvc+GSFResponse",
+    "header": {
+        "priority": 30,
+        "flags": 9,
+        "svcClass": 18,
+        "msgType": 566,
+        "requestId": 1,
+        "logCorrelator": "\"\"",
+        "resultCode": 0,
+        "appCode": 0,
+        "appString": "null",
+        "appCodeArray": null
+    }
+}
+------- GSFResponseMessage [DeserializeMembers] -------
+
+
+------- GSFRequestMessage [.ctor] -------
+
+
+------- GSFRequestMessage [.ctor] -------
+returned null, skipping returned
+logging after...
+{
+    "body": {
+        "typeValue": 2,
+        "langlocalePairID": {
+            "objectClass": 4,
+            "type": 19,
+            "server": 0,
+            "num": "8452423"
+        },
+        "tierID": null,
+        "birthDate": null,
+        "registrationDate": null,
+        "previewDate": null,
+        "isPreviewEnabled": false
+    },
+    "bodyType": "GSFGetSiteFrameSvc+GSFRequest",
+    "Timeout": {
+        "handle": "0x75abb0cd80"
+    },
+    "header": {
+        "priority": 30,
+        "flags": 0,
+        "svcClass": 18,
+        "msgType": 136,
+        "requestId": 2,
+        "logCorrelator": "\"\"",
+        "resultCode": 0,
+        "appCode": 0,
+        "appString": "null",
+        "appCodeArray": null
+    }
+}
+------- GSFRequestMessage [.ctor] -------
+returned null, skipping returned
+logging after...
+{
+    "body": {
+        "typeValue": 2,
+        "langlocalePairID": {
+            "objectClass": 4,
+            "type": 19,
+            "server": 0,
+            "num": "8452423"
+        },
+        "tierID": null,
+        "birthDate": null,
+        "registrationDate": null,
+        "previewDate": null,
+        "isPreviewEnabled": false
+    },
+    "bodyType": "GSFGetSiteFrameSvc+GSFRequest",
+    "Timeout": {
+        "handle": "0x75abb0cd50"
+    },
+    "header": {
+        "priority": 30,
+        "flags": 0,
+        "svcClass": 18,
+        "msgType": 136,
+        "requestId": 2,
+        "logCorrelator": "\"\"",
+        "resultCode": 0,
+        "appCode": 0,
+        "appString": "null",
+        "appCodeArray": null
+    }
+}
+------- GSFRequestMessage [.ctor] -------
+
+
+------- GSFResponseMessage [DeserializeMembers] -------
+returned null, skipping returned
+logging after...
+{
+    "body": {
+        "siteFrame": {
+            "typeValue": 2,
+            "assetMap": {
+                "\"Prefab_Unity3D\"": [
+                    {
+                        "assetTypeName": "\"Prefab_Unity3D\"",
+                        "cdnId": "\"MTAxNDc4MDYwNTIzNjY\"",
+                        "resName": "\"StrHolder\"",
+                        "groupName": "\"\"",
+                        "fileSize": "1633",
+                        "oid": {
+                            "objectClass": 4,
+                            "type": 2,
+                            "server": 0,
+                            "num": "9677702"
+                        }
+                    }
+                ]
+            },
+            "assetPackages": [],
+            "oid": {
+                "objectClass": 4,
+                "type": 62,
+                "server": 0,
+                "num": "9282517"
+            }
+        },
+        "assetDeliveryURL": "\"http://cdnproxy.webkinz.com/cdn/get/\""
+    },
+    "bodyType": "GSFGetSiteFrameSvc+GSFResponse",
+    "header": {
+        "priority": 30,
+        "flags": 9,
+        "svcClass": 18,
+        "msgType": 136,
+        "requestId": 2,
+        "logCorrelator": "\"\"",
+        "resultCode": 0,
+        "appCode": 0,
+        "appString": "null",
+        "appCodeArray": null
+    }
+}
+------- GSFResponseMessage [DeserializeMembers] -------
+
+
+------- GSFRequestMessage [.ctor] -------
+
+
+------- GSFRequestMessage [.ctor] -------
+returned null, skipping returned
+logging after...
+{
+    "body": {
+        "typeValue": 5,
+        "langlocalePairID": {
+            "objectClass": 4,
+            "type": 19,
+            "server": 0,
+            "num": "8452423"
+        },
+        "tierID": null,
+        "birthDate": null,
+        "registrationDate": null,
+        "previewDate": null,
+        "isPreviewEnabled": false
+    },
+    "bodyType": "GSFGetSiteFrameSvc+GSFRequest",
+    "Timeout": {
+        "handle": "0x75abb0c570"
+    },
+    "header": {
+        "priority": 30,
+        "flags": 0,
+        "svcClass": 18,
+        "msgType": 136,
+        "requestId": 3,
+        "logCorrelator": "\"\"",
+        "resultCode": 0,
+        "appCode": 0,
+        "appString": "null",
+        "appCodeArray": null
+    }
+}
+------- GSFRequestMessage [.ctor] -------
+returned null, skipping returned
+logging after...
+{
+    "body": {
+        "typeValue": 5,
+        "langlocalePairID": {
+            "objectClass": 4,
+            "type": 19,
+            "server": 0,
+            "num": "8452423"
+        },
+        "tierID": null,
+        "birthDate": null,
+        "registrationDate": null,
+        "previewDate": null,
+        "isPreviewEnabled": false
+    },
+    "bodyType": "GSFGetSiteFrameSvc+GSFRequest",
+    "Timeout": {
+        "handle": "0x75abb0c540"
+    },
+    "header": {
+        "priority": 30,
+        "flags": 0,
+        "svcClass": 18,
+        "msgType": 136,
+        "requestId": 3,
+        "logCorrelator": "\"\"",
+        "resultCode": 0,
+        "appCode": 0,
+        "appString": "null",
+        "appCodeArray": null
+    }
+}
+------- GSFRequestMessage [.ctor] -------
+
+
+------- GSFResponseMessage [DeserializeMembers] -------
+returned null, skipping returned
+logging after...
+{
+    "body": {
+        "siteFrame": {
+            "typeValue": 5,
+            "assetMap": {
+                "\"Prefab_Unity3D\"": [
+                    {
+                        "assetTypeName": "\"Prefab_Unity3D\"",
+                        "cdnId": "\"MTAyOTE2NjQzODgxMTA\"",
+                        "resName": "\"Plush_Ads\"",
+                        "groupName": "\"\"",
+                        "fileSize": "350993",
+                        "oid": {
+                            "objectClass": 4,
+                            "type": 2,
+                            "server": 0,
+                            "num": "9814896"
+                        }
+                    }
+                ]
+            },
+            "assetPackages": [],
+            "oid": {
+                "objectClass": 4,
+                "type": 62,
+                "server": 0,
+                "num": "9282520"
+            }
+        },
+        "assetDeliveryURL": "\"http://cdnproxy.webkinz.com/cdn/get/\""
+    },
+    "bodyType": "GSFGetSiteFrameSvc+GSFResponse",
+    "header": {
+        "priority": 30,
+        "flags": 9,
+        "svcClass": 18,
+        "msgType": 136,
+        "requestId": 3,
+        "logCorrelator": "\"\"",
+        "resultCode": 0,
+        "appCode": 0,
+        "appString": "null",
+        "appCodeArray": null
+    }
+}
+------- GSFResponseMessage [DeserializeMembers] -------

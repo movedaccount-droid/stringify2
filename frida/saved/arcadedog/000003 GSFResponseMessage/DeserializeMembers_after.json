@@ -1,0 +1,49 @@
+{
+    "body": {
+        "playerQuest": {
+            "createDate": {
+                "handle": "0x70019975a0"
+            },
+            "acceptedDate": null,
+            "startedDate": null,
+            "expiryDate": null,
+            "completedDate": null,
+            "playerId": {
+                "objectClass": 4,
+                "type": 1,
+                "server": 2,
+                "num": "286043"
+            },
+            "questState": 0,
+            "parentPlayerQuestID": null,
+            "questID": {
+                "objectClass": 4,
+                "type": 15,
+                "server": 0,
+                "num": "9559824"
+            },
+            "quest": null,
+            "oid": {
+                "objectClass": 4,
+                "type": 53,
+                "server": 2,
+                "num": "23942741"
+            }
+        },
+        "isLocation": false,
+        "parentLocationId": null
+    },
+    "bodyType": "GSFCreateQuestSvc+GSFResponse",
+    "header": {
+        "priority": 30,
+        "flags": 9,
+        "svcClass": 18,
+        "msgType": 491,
+        "requestId": 251,
+        "logCorrelator": "\"\"",
+        "resultCode": 0,
+        "appCode": 0,
+        "appString": "null",
+        "appCodeArray": null
+    }
+}

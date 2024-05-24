@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": [ "es2022" ],
+    "experimentalDecorators": true,
+    "module": "nodenext",
+    "allowJs": true,
+    "noEmit": false,
+    "esModuleInterop": true,
+    "moduleResolution": "nodenext",
+    "strict": true,
+    "sourceMap": true
+  },
+  "files": [ "src/index.ts" ]
+}

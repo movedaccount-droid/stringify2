@@ -1,0 +1,39 @@
+{
+    "body": {
+        "playerQuestId": {
+            "objectClass": 4,
+            "type": 53,
+            "server": 2,
+            "num": "23942741"
+        },
+        "questId": {
+            "objectClass": 4,
+            "type": 15,
+            "server": 0,
+            "num": "9559824"
+        },
+        "locationId": {
+            "objectClass": 4,
+            "type": 191,
+            "server": 1,
+            "num": "2"
+        },
+        "spawnedItems": null
+    },
+    "bodyType": "GSFStartQuestSvc+GSFRequest",
+    "Timeout": {
+        "handle": "0x70ef4a9f90"
+    },
+    "header": {
+        "priority": 30,
+        "flags": 0,
+        "svcClass": 18,
+        "msgType": 112,
+        "requestId": 256,
+        "logCorrelator": "\"\"",
+        "resultCode": 0,
+        "appCode": 0,
+        "appString": "null",
+        "appCodeArray": null
+    }
+}

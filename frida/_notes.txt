@@ -1,0 +1,40 @@
+bootstrap guide
+phone must be running frida-server to allow entry
+    adb root to start daemon as root
+    adb shell -> /data/local/tmp/fridaserver. keep this shell open
+
+frida project must be run via npm
+    cd _projects/001webkinz/frida
+    npm run spawn
+
+vscode session must also run npm watch for autocompile
+    npm run watch
+
+
+currently this toolkit can perform the following:
+    -automatic ripping of items [modify_GSFGetPublicItemsByOIDsSvc_ctor/log_GetPublicItemsByOIDs_response_des]
+
+    -automatic ripping of avataraccents [modify_GSFGetPublicAvatarAccentsByOIDsSvc_ctor/log_GSFGetPublicAvatarAccentsByOIDsSvc_response_des]
+
+    -automatic ripping of showcaseavatars [modify_GSFGetShowcaseAvatarsSvc_ctor/log_GSFGetShowcaseAvatarsSvc_response_des]
+
+    -disable automatic server session timeout [modify_GSFHeartbeatSvc_request_ctor]
+
+
+./saved contains saved log files. currently these comprise:
+    arcadedog: message stream accepting and reading a request from the dog in the arcade, to find out how the score target is generated
+
+    playershowcase: various playershowcase results
+
+    oidlog_byte: a long listing of various oids that the game read
+
+    playershowcase_.zip: zip of the playershowcase results
+
+
+./pull_logs.sh will delete the local ./logs folder and automatically pull logs from the device to a new copy of the folder, deleting them from the device. run it twice to clear your local files and your device files completely.
+
+./analyze_log.sh will take a log and display the last line of each indentation level. this is useful for if some kind of recursion is breaking in the stringify functions, and you want to cleanly see where the recursion occurs
+
+
+
+general documentation:

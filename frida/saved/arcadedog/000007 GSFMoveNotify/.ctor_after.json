@@ -1,0 +1,57 @@
+{
+    "body": {
+        "pos": [
+            {
+                "x": 853,
+                "y": 0,
+                "z": 1348,
+                "t": 0
+            },
+            {
+                "x": 853,
+                "y": 0,
+                "z": 1348,
+                "t": 0
+            }
+        ],
+        "qth": {
+            "w": 1,
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "sw": false,
+            "sx": false,
+            "sy": false,
+            "sz": false,
+            "cx": "0",
+            "cy": "0",
+            "cz": "0"
+        },
+        "secondQth": null,
+        "seq": 0,
+        "uid": {
+            "objectClass": 4,
+            "type": 1,
+            "server": 2,
+            "num": "286043"
+        },
+        "vid": null,
+        "teleport": false
+    },
+    "bodyType": "GSFMoveNotify+GSFRequest",
+    "Timeout": {
+        "handle": "0x70ef578de0"
+    },
+    "header": {
+        "priority": 30,
+        "flags": 2,
+        "svcClass": 7,
+        "msgType": -1,
+        "requestId": -1,
+        "logCorrelator": "\"\"",
+        "resultCode": 0,
+        "appCode": 0,
+        "appString": "null",
+        "appCodeArray": null
+    }
+}

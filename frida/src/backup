@@ -1,0 +1,151 @@
+import { getFips } from "crypto";
+import * as fs from "fs";
+import "frida-il2cpp-bridge";
+
+const AssemblyCSharp = Il2Cpp.domain.assembly("Assembly-CSharp-firstpass").image;
+const List = Il2Cpp.corlib.class("System.Collections.Generic.List`1");
+const oidlog_byte = "/home/sk/_projects/001webkinz/frida/logs/oidlog_byte.txt";
+const oidlog_long = "/home/sk/_projects/001webkinz/frida/logs/oidlog_long.txt";
+
+function build_gsfoid (svcClass: number, objType: number, server: number, objNum: number) : Il2Cpp.Object {
+    const GSFOID = AssemblyCSharp.class("GSFOID");
+    const new_gsfoid = GSFOID.alloc();
+    new_gsfoid.method(".ctor", 4).invoke(svcClass, objType, server, objNum)
+    return new_gsfoid
+}
+
+function iterate_gsfoids () {
+    // for now, just get the first 100 hard-coded gsfoids
+    const GSFOID = AssemblyCSharp.class("GSFOID");
+    var GSFOIDList = List.inflate(GSFOID)
+    const oids_list = GSFOIDList.alloc();
+    oids_list.method(".ctor", 0).invoke();
+    var objnums = Array(100)
+    for (var i of objnums) {
+        //oids_list.method("Add", 1).invoke(build_gsfoid(UNKNOWN CURRENTLY, x, x, i));
+    }
+}
+
+function create_gsfgetassetsbyoidssvc_request (oids: Il2Cpp.Object[]) {
+
+    const GSFGetAssetsByOIDsSvcRequest = AssemblyCSharp.class("GSFGetAssetsByOIDsSvc").nested("GSFRequest");
+    const new_request = GSFGetAssetsByOIDsSvcRequest.alloc();
+    //new_request.method(".ctor", 1).invoke(oids_list);
+}
+
+Il2Cpp.perform(function() {
+    // getting assembly image
+    const request = AssemblyCSharp.class("GSFGetPublicItemsByOIDsSvc").nested("GSFRequest");
+    const requestctor = request.method(".ctor");
+    // @ts-ignore
+    requestctor.implementation = function (
+        this: Il2Cpp.Object | Il2Cpp.Class,
+        oids: Il2Cpp.Object,
+        langlocalePairId: Il2Cpp.Object,
+        tierID: Il2Cpp.Object,
+        birthDate: Il2Cpp.Object,
+        registrationDate: Il2Cpp.Object,
+        previewDate: Il2Cpp.Object,
+        isPreviewEnabled: boolean
+    ) {
+        for (let i = 0; i < oids.method<number>("get_Count").invoke(); i++) {
+            console.log(oids.method<Il2Cpp.Object>("get_Item", 1).invoke(i))
+        }
+        console.log("oid:" + oids.method<number>("get_Count").invoke())
+        console.log("tierID:" + tierID)
+        console.log("langlocale:" + langlocalePairId)
+        console.log("birthdate:" + birthDate)
+        console.log("regdate:" + registrationDate)
+        console.log("previewdate:" + previewDate)
+        console.log("previewenabled:" + isPreviewEnabled)
+        this.method(".ctor").invoke(oids, langlocalePairId, tierID, birthDate, registrationDate, previewDate, isPreviewEnabled);
+    };
+
+    const response = AssemblyCSharp.class("GSFGetPublicItemsByOIDsSvc").nested("GSFResponse");
+    const responsector = response.method("DeserializeMembers");
+    //@ts-ignore
+    responsector.implementation = function (
+        protocol: Il2Cpp.Object,
+        input: Il2Cpp.Object
+    ) {
+        this.method("DeserializeMembers").invoke(protocol, input);
+        var itemlist = this.field<Il2Cpp.Object>("items").value
+        console.log("done 1: " + itemlist)
+        var items = itemlist.method<number>("get_Count").invoke();
+        console.log("done 2")
+        for (let i = 0; i < items; i++) {
+            var item = itemlist.method<Il2Cpp.Object>("get_Item", 1).invoke(i)
+            console.log(item.field<Il2Cpp.String>("name").value)
+        }
+        console.log("oid:" + itemlist.method<number>("get_Count").invoke())
+    };
+
+    const GSFGetAssetsByOIDsSvcResponse = AssemblyCSharp.class("GSFGetAssetsByOIDsSvc").nested("GSFResponse");
+    const GSFGetAssetsByOIDsSvcResponseDeserializeMembers = GSFGetAssetsByOIDsSvcResponse.method("DeserializeMembers");
+    //@ts-ignore
+    GSFGetAssetsByOIDsSvcResponseDeserializeMembers.implementation = function (
+        protocol: Il2Cpp.Object,
+        input: Il2Cpp.Object
+    ) {
+        this.method("DeserializeMembers").invoke(protocol, input);
+        var itemlist = this.field<Il2Cpp.Object>("assets").value
+        console.log("done 1: " + itemlist)
+        var items = itemlist.method<number>("get_Count").invoke();
+        console.log("done 2")
+        for (let i = 0; i < items; i++) {
+            // get GSFAssetContainer
+            var asset_container = itemlist.method<Il2Cpp.Object>("get_Item", 1).invoke(i)
+            // parse contained dictionary object to array of contained lists
+            var dict = asset_container.field<Il2Cpp.Object>("assetMap").value
+            console.log("dict:" + dict)
+            var dict_values = dict.method<Il2Cpp.Object>("get_Values").invoke()
+            var dict_length = dict.method<number>("get_Count").invoke()
+            var dict_array = Il2Cpp.array<Il2Cpp.Object>(List, dict_length)
+            dict_values.method<Il2Cpp.Object>("CopyTo").invoke(dict_array, 0)
+            console.log(dict_array)
+            // parse contained lists and handle their gsfassets
+            for (var list of dict_array) {
+                var length = list.method<number>("get_Count").invoke();
+                for (let i = 0; i < length; i++) {
+                    var gsfasset = list.method<Il2Cpp.Object>("get_Item", 1).invoke(i)
+                    console.log(gsfasset.field<Il2Cpp.String>("resName").value + ": " + gsfasset.field<Il2Cpp.String>("cdnId").value)
+                }
+            }
+            //console.log(item.field<Il2Cpp.String>("name").value)
+        }
+        console.log("oid:" + itemlist.method<number>("get_Count").invoke())
+    };
+
+    //logging GSFOIDs to discover potential templates. now exploring.
+    const GSFOID = AssemblyCSharp.class("GSFOID");
+    const GSFOIDctorbyte = GSFOID.method(".ctor", 4);
+    //@ts-ignore
+    GSFOIDctorbyte.implementation = function (
+        svcClass: number,
+        objType: number,
+        server: number,
+        objNum: number
+    ) {
+        fs.appendFileSync(oidlog_byte, svcClass + ", " + objType + ", " + server + ", " + objNum + "\n");
+        this.method(".ctor", 4).invoke(svcClass, objType, server, objNum);
+    }
+
+    const GSFOIDctorlong = GSFOID.method(".ctor", 1);
+    //@ts-ignore
+    GSFOIDctorlong.implementation = function (
+        l: number
+    ) {
+        fs.appendFileSync(oidlog_long, l.toString());
+        this.method(".ctor", 1).invoke(l)
+    }
+
+    // Il2Cpp.trace(true)
+    // .assemblies(Il2Cpp.domain.assembly("Assembly-CSharp-firstpass"))
+    // .filterParameters(param => param.name == "input")
+    // .and()
+    // .assemblies(Il2Cpp.domain.assembly("Assembly-CSharp-firstpass"))
+    // .filterMethods(method => method.name.toLowerCase().includes("DeserializeMembers"))
+    // .and()
+    // .attach();
+
+});

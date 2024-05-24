@@ -1,0 +1,30 @@
+{
+    "body": {
+        "playerQuestId": {
+            "objectClass": 4,
+            "type": 53,
+            "server": 2,
+            "num": "23942741"
+        },
+        "playerIDs": null,
+        "ordinalStart": null,
+        "ordinalEnd": null,
+        "closedQuest": false
+    },
+    "bodyType": "GSFGetQuestItemsSvc+GSFRequest",
+    "Timeout": {
+        "handle": "0x70ef590db0"
+    },
+    "header": {
+        "priority": 30,
+        "flags": 0,
+        "svcClass": 18,
+        "msgType": 119,
+        "requestId": 254,
+        "logCorrelator": "\"\"",
+        "resultCode": 0,
+        "appCode": 0,
+        "appString": "null",
+        "appCodeArray": null
+    }
+}

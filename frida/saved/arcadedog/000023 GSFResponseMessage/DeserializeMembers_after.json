@@ -1,0 +1,21 @@
+{
+    "body": {
+        "isStarted": true,
+        "spawnedItems": null,
+        "confirmedPlayers": null,
+        "hostPlayerID": null
+    },
+    "bodyType": "GSFStartQuestSvc+GSFResponse",
+    "header": {
+        "priority": 30,
+        "flags": 9,
+        "svcClass": 18,
+        "msgType": 112,
+        "requestId": 256,
+        "logCorrelator": "\"\"",
+        "resultCode": 0,
+        "appCode": 0,
+        "appString": "null",
+        "appCodeArray": null
+    }
+}

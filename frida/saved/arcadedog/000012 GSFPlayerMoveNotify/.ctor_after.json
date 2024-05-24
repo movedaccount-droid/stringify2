@@ -1,0 +1,28 @@
+{
+    "body": {
+        "pid": null,
+        "playervillagerid": null,
+        "lcp": false,
+        "pos": null,
+        "qth": null,
+        "secondQth": null,
+        "seq": 0,
+        "teleport": false
+    },
+    "bodyType": "GSFPlayerMoveNotify+GSFRequest",
+    "Timeout": {
+        "handle": "0x70ef57ded0"
+    },
+    "header": {
+        "priority": 30,
+        "flags": 2,
+        "svcClass": 7,
+        "msgType": -1,
+        "requestId": -1,
+        "logCorrelator": "\"\"",
+        "resultCode": 0,
+        "appCode": 0,
+        "appString": "null",
+        "appCodeArray": null
+    }
+}

@@ -1,0 +1,105 @@
+{
+    "body": {
+        "playerQuestObjects": [
+            {
+                "objectId": {
+                    "objectClass": 4,
+                    "type": 6,
+                    "server": 0,
+                    "num": "9616161"
+                },
+                "objectPosition": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "createDate": null,
+                "collectedDate": null,
+                "playerId": {
+                    "objectClass": 4,
+                    "type": 1,
+                    "server": 2,
+                    "num": "286043"
+                },
+                "questId": {
+                    "objectClass": 4,
+                    "type": 15,
+                    "server": 0,
+                    "num": "9559824"
+                },
+                "playerQuestId": {
+                    "objectClass": 4,
+                    "type": 53,
+                    "server": 2,
+                    "num": "23942741"
+                },
+                "quantity": 279,
+                "ordinal": 0,
+                "sourceId": null,
+                "item": null,
+                "oid": {
+                    "objectClass": 4,
+                    "type": 54,
+                    "server": 2,
+                    "num": "49895310"
+                }
+            },
+            {
+                "objectId": {
+                    "objectClass": 4,
+                    "type": 6,
+                    "server": 0,
+                    "num": "9617203"
+                },
+                "objectPosition": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "createDate": null,
+                "collectedDate": null,
+                "playerId": {
+                    "objectClass": 4,
+                    "type": 1,
+                    "server": 2,
+                    "num": "286043"
+                },
+                "questId": {
+                    "objectClass": 4,
+                    "type": 15,
+                    "server": 0,
+                    "num": "9559824"
+                },
+                "playerQuestId": {
+                    "objectClass": 4,
+                    "type": 53,
+                    "server": 2,
+                    "num": "23942741"
+                },
+                "quantity": 1,
+                "ordinal": 0,
+                "sourceId": null,
+                "item": null,
+                "oid": {
+                    "objectClass": 4,
+                    "type": 54,
+                    "server": 2,
+                    "num": "49895311"
+                }
+            }
+        ]
+    },
+    "bodyType": "GSFGetQuestItemsSvc+GSFResponse",
+    "header": {
+        "priority": 30,
+        "flags": 9,
+        "svcClass": 18,
+        "msgType": 119,
+        "requestId": 254,
+        "logCorrelator": "\"\"",
+        "resultCode": 0,
+        "appCode": 0,
+        "appString": "null",
+        "appCodeArray": null
+    }
+}

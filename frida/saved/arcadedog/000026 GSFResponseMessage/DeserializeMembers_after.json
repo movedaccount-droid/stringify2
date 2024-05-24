@@ -1,0 +1,20 @@
+{
+    "body": {
+        "currentServerTime": {
+            "handle": "0x70019976c0"
+        }
+    },
+    "bodyType": "GSFHeartbeatSvc+GSFResponse",
+    "header": {
+        "priority": 30,
+        "flags": 9,
+        "svcClass": 18,
+        "msgType": 113,
+        "requestId": 257,
+        "logCorrelator": "\"\"",
+        "resultCode": 0,
+        "appCode": 0,
+        "appString": "null",
+        "appCodeArray": null
+    }
+}

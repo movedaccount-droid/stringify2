@@ -1,0 +1,6 @@
+                                                "properties": {
+                                                    "\"c\"": "\"1\"",
+                                                    "\"e\"": "\"[305118874756933212, 289919226021593394, 289919226021592186, 305118874756933212, 289919226021594369, 289919226021592358, 305118874763571499, 305118874756933212, 289919226021408277, 305118874759028395]\"",
+                                                    "\"g\"": "\"Money@Delta:50@Weight:21;Item.Consumable.Wheel of Wow Soda@Weight:12;Item.Body.Shirt.Autumn Dip-Dye Shirt@Weight:8;Money@Delta:100@Weight:10;Item.Home.Decoration.Hot Air Balloon Lamp@Weight:8;Item.Home.Decoration.Plant.Marble Queen Pothos@Weight:9;SchoolRibbon@Delta:20@Weight:15;Money@Delta:250@Weight:6;Item.Home.Furniture.Kitchen.Kawaii Stove@Weight:2;WishToken@Delta:1@Weight:9\"",
+                                                    "\"h\"": "\"0\""
+                                                },

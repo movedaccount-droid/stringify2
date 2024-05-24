@@ -1,0 +1,31 @@
+{
+    "body": {
+        "oid": null,
+        "pid": null,
+        "playerNotificationID": null,
+        "objectID": null,
+        "objectID2": null,
+        "source": "null",
+        "sendingObjectID": null,
+        "quantity": 0,
+        "currentServerTime": null,
+        "targetTime": null,
+        "ordinal": 0
+    },
+    "bodyType": "GSFNotificationNotify+GSFRequest",
+    "Timeout": {
+        "handle": "0x70ef4cb510"
+    },
+    "header": {
+        "priority": 30,
+        "flags": 2,
+        "svcClass": 7,
+        "msgType": -1,
+        "requestId": -1,
+        "logCorrelator": "\"\"",
+        "resultCode": 0,
+        "appCode": 0,
+        "appString": "null",
+        "appCodeArray": null
+    }
+}

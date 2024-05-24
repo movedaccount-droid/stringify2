@@ -1,0 +1,61 @@
+{
+    "body": {
+        "items": [
+            {
+                "name": "\"Game.ChallengeScore\"",
+                "isConsumable": true,
+                "isTradeable": false,
+                "isContainer": false,
+                "depth": 0,
+                "height": 0,
+                "width": 0,
+                "isPresentable": false,
+                "acceptsPresentable": false,
+                "returnToDockNotAllowed": false,
+                "qualityIndex": 0,
+                "sellPrice": "0",
+                "isUserSellable": false,
+                "growthRate": 0,
+                "matureDuration": 0,
+                "decayDuration": 0,
+                "quantity": 1,
+                "itemCategories": null,
+                "slotIds": null,
+                "isACrib": null,
+                "isABed": null,
+                "isAStroller": null,
+                "isHarvestable": null,
+                "isAGem": null,
+                "isSlag": null,
+                "isCompetitionFood": null,
+                "isClassicNoDuplicates": null,
+                "isClassicSmall": null,
+                "isClassicRegular": null,
+                "isClassicDiamondSmall": null,
+                "isClassicDiamondRegular": null,
+                "isContainer3D": null,
+                "assetMap": {},
+                "assetPackages": [],
+                "oid": {
+                    "objectClass": 4,
+                    "type": 6,
+                    "server": 0,
+                    "num": "9616161"
+                }
+            }
+        ]
+    },
+    "bodyType": "GSFGetPublicItemsByOIDsSvc+GSFResponse",
+    "header": {
+        "priority": 30,
+        "flags": 9,
+        "svcClass": 18,
+        "msgType": 571,
+        "requestId": 252,
+        "logCorrelator": "\"\"",
+        "resultCode": 0,
+        "appCode": 0,
+        "appString": "null",
+        "appCodeArray": null
+    }
+}
